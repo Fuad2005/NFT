@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.just{
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+}
+.header{
+    padding: 20px 0;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+.header .menu ul{
+    list-style: none;
+
+}
+.header .menu ul li a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+
+}
+.header .menu ul li a:hover{
+    color: #FF6864;
+}
+.header .menu ul li:first-child a{
+    color: #FF6864;
+    transition: 0.2s ease-in-out;
+
+}
+.header .menu ul li:first-child a:hover{
+    color: #b64c49;
+}
+.header .menu ul li:last-child a{
+    background-color: #FF6864;
+    padding: 10px 25px;
+    color: #fff;
+    transition: 0.25s ease-in-out;
+    border-radius: 8mm;
+}
+.header .menu ul li:last-child a:hover{
+    background-color: #03A4ED;
+}
+
+/* <!-- =====NFT======= --> */
+
+.nft{
+    position: relative;
+    background: url(/photo/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.nft .nft-menu .left-text{
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    transform: translate(0,-50%);
+}
+
+.nft .nft-menu .left-text h6{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ff695f;
+    margin-bottom: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nft .nft-menu .left-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 72px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.nft .nft-menu .left-text h1 span{
+    color: #FF695F;
+}
+.nft .nft-menu .left-text p{
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 120%;
+}
+.nft .nft-menu .left-text .btn1{
+    background-color: rgb(3, 164, 237);
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 8mm;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.nft .nft-menu .left-text .btn2{
+    text-decoration: none;
+    color: #FF8165;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.nft .nft-menu .left-text .btn2 i{
+    background-color: #FF8165;
+    border-radius: 50%;
+    color: #fff;
+    padding: 12px;
+    
+}
+/* ====provide===== */
+
+.provide{
+    height: 90vh;
+}
+.provide .text{
+    text-align: center;
+
+}
+.provide h2{
+    padding-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    width: 38%;
+    margin: auto;
+    opacity: 0.9;
+    font-weight: 700;
+   
+}
+.provide h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    width: 38%;
+    margin: auto;
+    opacity: 0.9;
+    font-weight: 700;
+    color: #FF695F;
+    opacity: 0.3;
+}
+
+
+.provide .boxes{
+    /* border: 2px solid red; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.provide .boxes .rocket{
+    border-bottom: 5px solid #FF695F;
+    display: inline-block;
+    width: 30%;
+    height: 42vh;
+    text-align: center;
+}
+.provide .boxes .rocket img{
+    background-color: #006FE3;
+    border-radius: 20%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.provide .boxes .rocket h4{
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+    letter-spacing: 0.3px;
+    width: 80%;
+    margin-left: 30px;
+}
+.provide .boxes .rocket p{
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    width: 94%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+/* ===trending==== */
+
+
+
+.trending{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+.trending .photo{
+    width: 45%;
+    height: 85vh;
+    margin-top: 20px;
+}
+.trending .photo img{
+    width: 100%;
+    height: 100%;
+}
+.trending .content{
+    width: 50%;
+    height: 85vh;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.trending .content h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.808);
+    width: 79%;
+}
+.trending .content p{
+    margin-top: 30px;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    width: 98%;
+    line-height: 30px;
+}
+
+
+.boxes{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+.boxes .projects{
+    width: 30%;
+    height: 40vh;
+    margin-top: 30px;
+}
+.boxes .projects h1{
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+
+}
+.boxes .projects span{
+    font-family: 'poppins',sans-serif;
+    color: rgb(255, 105, 95);
+    
+}
+.boxes .projects p{
+    border-top: 1px solid rgba(92, 92, 92, 0.171);
+}
+
+
+/* ===project===== */
+.project{
+    width: 100%;
+    height: 120vh;
+    text-align: center;
+}
+.project h1{
+    margin-top: 30px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.774);
+    width: 35%;
+    margin: auto;
+}
+
+
+.project .pics{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.project .pics .pic1{
+    width: 30%;
+    height: 90%;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.project .pics .pic1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+}
+.project .pics .pic1 img:hover{
+    opacity: 70%;
+}
+
+
+/* ====plan==== */
+
+
+.plan{
+    height: 80vh;
+}
+
+.plan .plans{
+    display: flex;
+    justify-content: space-around;
+}
+.plan h1{
+    text-align: center;
+}
+.plan .starter{
+    border-radius: 10mm;
+    display: inline-block;
+    width: 30%;
+    height: 60vh;
+    margin-top: 40px;
+    text-align: center;
+     box-shadow: 1px 1px 5px 0 rgba(128, 128, 128, 0.301);
+
+}
+.plan .starter h3{
+    font-family: 'poppins',sans-serif;
+    color: rgba(0, 0, 0, 0.822);  
+    margin-top: 20px;  
+}
+.plan .starter span{
+    color: rgb(255, 105, 95);
+}
+.plan .starter h2{
+    font-family: 'poppins',sans-serif;
+    font-size: 40px;
+    color: rgb(255, 105, 95);
+}
+.plan .starter p{
+    margin-top: 20px;
+    line-height: 50px;
+    font-family: 'poppins',sans-serif;
+    color: #2a2a2ac4;
+}
+.plan .starter a{
+    text-decoration: none;
+
+    color: white;
+    font-family: 'poppins',sans-serif;
+    background-color: rgb(3, 164, 237);
+    padding: 10px 28px;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+}
+.plan .starter a:hover{
+    background-color: rgb(255, 105, 95);
+}
+
+
+
+/* ====email==== */
+
+
+.email{
+    width: 85%;
+    margin: auto;
+    height: 32vh;
+    background: url(/photo/subscribe-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    border-radius: 5mm;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.email h1{
+    color: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    font-family: 'poppins',sans-serif;
+    font-size: 30px;
+}
+
+.email input{
+    margin: auto;
+    width: 85%;
+    outline: none;
+    border-radius: 10mm;
+    border: 2px solid #fff;
+    padding: 25px 10px;
+    font-size: 15px;
+}
+.email a button{
+    padding: 12px 80px;
+    border: 1px grey;
+    background-color: rgb(3, 164, 237);
+    border-radius: 8mm;
+    position: absolute;
+    bottom: 50px;
+    right: 110px;
+    color: #fff;
+    font-family: 'poppins',sans-serif;
+    font-size: 17px;
+    transition: 0.3s ease-in ;
+    
+}
+.email a button:hover{
+    background-color: rgb(255, 105, 95);
+}
